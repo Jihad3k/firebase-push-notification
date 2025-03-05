@@ -83,6 +83,9 @@ A web-based admin panel for managing Firebase Cloud Messaging (FCM) push notific
    - Firebase Project ID
    - Default Topic (e.g., `'allDevices'`)
    - Paste the contents of your `google-services.json` file.
+  
+## Setup On Android Studio App (JAVA)
+[Setup Guide](setupAndroid.md)
 
 ## Project Structure
 
@@ -109,13 +112,13 @@ pushUi/
 
 View the push notification history and send new notifications.
 
-![Dashboard](https://cdn.jsdelivr.net/gh/hscbmt/img@main/push3.png)
+![Dashboard](https://cdn.jsdelivr.net/gh/hscbmt/img@main/push1.png)
 
 ### Notification Sending
 
 Send push notifications with image attachments and action URLs.
 
-![Send Notification](https://cdn.jsdelivr.net/gh/hscbmt/img@main/push1.png)
+![Send Notification](https://cdn.jsdelivr.net/gh/hscbmt/img@main/push3.png)
 
 ## Security Notes
 

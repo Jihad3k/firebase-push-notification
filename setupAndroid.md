@@ -155,7 +155,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // Create a notification builder
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.ic_noti)
-                .setLargeIcon(Icon.createWithResource(this, R.mipmap.ic_launcher_round))
                 .setContentTitle(notificationTitle)
                 .setContentText(notificationBody)
                 .setBadgeIconType(R.drawable.ic_noti)
